@@ -5,7 +5,6 @@ int servoPin_spin = 5, servoPin_up=4, servoPin_front=3, servoPin_cleaching=2;
 Servo Servo1_spin, Servo1_up, Servo1_front, Servo1_cleaching;
 
 void setup() {
-  // Нам нужно подключить сервопривод к используемому номеру пина
   Servo1_spin.attach(servoPin_spin);
   Servo1_up.attach(servoPin_up);
   Servo1_front.attach(servoPin_front);
